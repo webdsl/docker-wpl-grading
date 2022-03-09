@@ -13,8 +13,8 @@ echo "Performing search reindex for application init data"
 yes '' | webdsl reindex
 
 echo "Building and deploying React project"
-if [ -n "$(ls -A /react)" ]; then
-  cd /react
+if [ -n "$(ls -A /root/react/package.json)" ]; then
+  cd /root/react
   npm install
   npm start
 fi

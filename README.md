@@ -4,7 +4,7 @@
 
 Copy the source code of the WebDSL application to `webdsl/`. This contains the main app file, the *.app file that starts with `application`.
 
-Copy the source code of the React application to `react/`. This assumes `react/package.json` includes `"proxy":"http://localhost:8080"`.
+Copy the source code of the React application to `react/`. This assumes `react/package.json` includes `"proxy":"http://localhost:8080"`. If there is no `react/` folder, only the WebDSL application is deployed.
 
 ## Running the app
 
